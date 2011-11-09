@@ -17,7 +17,7 @@ class Pages extends CI_Controller{
 		// Whoops, we don't have a page for that!
 		show_404();
 	}
-	
+	//added a line
 	$data['title'] = ucfirst($page); // Capitalize the first letter
 	
 	$this->load->view('templates/header', $data);
