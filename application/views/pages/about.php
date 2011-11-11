@@ -11,7 +11,13 @@ and open the template in the editor.
     <body>
         <h1> About Us </h1>
         <?php
-        // put your code here
+        foreach($content as $row){
+            echo 'ID: '.($row->mes_id).'</br>';
+            echo 'Message: '.($row->msg).'</br>';
+            echo 'Up: '.($row->up).'</br>';
+            echo 'Down: '.($row->down).'</br></br>';
+        }
+        //print_r( $content[0]->msg);
         ?>
     </body>
 </html>

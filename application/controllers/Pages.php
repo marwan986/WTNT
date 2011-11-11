@@ -19,10 +19,14 @@ class Pages extends CI_Controller{
 	}
 	//added a line
 	$data['title'] = ucfirst($page); // Capitalize the first letter
-	
-	$this->load->view('templates/header', $data);
-	$this->load->view('pages/'.$page, $data);
-	$this->load->view('templates/footer', $data);
+	$this->load->model('Votemodel');
+        $result['content'] = $this->Votemodel->getVote();
+        $this->load->view('pages/'.$page,$result);
+        
+        //print_r($result->msg);
+	//$this->load->view('templates/header', $data);
+	//$this->load->view('pages/'.$page, $data);
+	//$this->load->view('templates/footer', $data);
 
     }
 }

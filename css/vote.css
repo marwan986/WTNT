@@ -1,0 +1,93 @@
+/* 
+    Document   : vote
+    Created on : 10-Nov-2011, 4:13:04 PM
+    Author     : Compaq User
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root{
+    display:block;
+}
+body
+{
+    
+font-family:'Georgia', Times New Roman, Times, serif;
+}
+#main
+{
+height:80px; border:1px dashed #29ABE2;margin-bottom:7px;
+width:500px;
+}
+a
+{
+color:#DF3D82;
+text-decoration:none;
+
+}
+a:hover
+{
+color:#DF3D82;
+text-decoration:underline;
+
+}
+.up
+{
+height:40px; font-size:24px; text-align:center; background-color:#009900; margin-bottom:2px;
+-moz-border-radius: 6px;-webkit-border-radius: 6px;
+}
+.up a
+{
+color:#FFFFFF;
+text-decoration:none;
+
+}
+.up a:hover
+{
+color:#FFFFFF;
+text-decoration:none;
+
+}
+.down
+{
+height:40px; font-size:24px; text-align:center; background-color:#cc0000; margin-top:2px;
+-moz-border-radius: 6px;-webkit-border-radius: 6px;
+}
+
+.down a
+{
+color:#FFFFFF;
+text-decoration:none;
+
+}
+.down a:hover
+{
+color:#FFFFFF;
+text-decoration:none;
+
+}
+.box1
+{
+float:left; height:80px; width:50px;
+}
+
+.box2
+{
+float:left; width:440px; text-align:left;
+margin-left:10px;height:60px;margin-top:10px;
+font-weight:bold;
+
+font-size:18px;
+}
+img
+{
+border:none;
+padding-top:7px;
+
+}
+
